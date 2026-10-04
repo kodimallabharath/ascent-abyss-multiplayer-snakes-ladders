@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Ascent & Abyss: Multiplayer Snakes & Ladders</title>
+    <meta name="description" content="Minimalist real-time multiplayer Snakes & Ladders web game with WebRTC P2P networking, QR code room join, procedural audio synthesis, and GitHub Pages support." />
+    <meta property="og:title" content="Ascent & Abyss: Multiplayer Snakes & Ladders" />
+    <meta property="og:description" content="Minimalist real-time multiplayer Snakes & Ladders web game with WebRTC P2P networking, QR code room join, procedural audio synthesis, and GitHub Pages support." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- WebRTC PeerJS for Serverless P2P Multiplayer on GitHub Pages -->
+    <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+    <!-- QRCode generator and HTML5 camera scanner for instant QR joining -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+  </head>
+  <body class="bg-neutral-950 text-neutral-100 antialiased font-sans selection:bg-amber-500/30 selection:text-amber-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
